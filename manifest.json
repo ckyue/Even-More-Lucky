@@ -1,0 +1,32 @@
+{
+  "name": "I'm Feeling Wonderful",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Enhance your searching experience",
+  "homepage_url": "http://cky.im",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "options_page": "src/options_custom/index.html",
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "page action demo",
+    "default_popup": "src/page_action/page_action.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage"	,
+    "*:*.google.ca/*,https:*.google.ca/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.google.ca/*"],
+      "css": ["src/inject/inject.css"],
+      "js": ["src/inject/inject.js"]
+    }
+ ]
+}
