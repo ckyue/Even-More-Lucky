@@ -22,10 +22,11 @@
    display: inline-block;
    text-decoration: none
  }
+ /*
  button:hover,.button:focus{
    background: #5f6adb;
 
- }
+ }*/
  button:active{
    background: #3e4edb;
  }
