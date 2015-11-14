@@ -11,14 +11,13 @@
   },
   "default_locale": "en",
   "options_page": "src/options_custom/index.html",
-},
 
   "permissions": [
     "tabs",
     "activeTab",
-    "storage"	,
-    "*:*.google.ca/*,https:*.google.ca/*"
+    "storage"
   ],
+
   "content_scripts": [
     {
       "matches": ["*://*.google.ca/*"],
