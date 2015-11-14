@@ -5,7 +5,3 @@ var btn = document.createElement("BUTTON");
 		var place = document.getElementById("searchform");
     btn.appendChild(t);
     place.appendChild(btn);
-
-// var place = document.getElementById("viewport");
-// var parentDiv = place.parentNode;
-// parentDiv.insertBefore(btn,place);
