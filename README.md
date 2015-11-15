@@ -8,9 +8,8 @@ Load User Input;
 Get link according to user input;
 
 Option menu;
-icons;
 ship;
 
 issues:
 setResultSetSize;
-css, the position of the button;
+hard to click image video etc;
