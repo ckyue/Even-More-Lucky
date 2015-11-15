@@ -6,7 +6,6 @@ var btn = document.createElement("BUTTON");
     btn.appendChild(t);
     place.appendChild(btn);
 
-
     function workFlow(){
         var numOfLinks = 5;
         var counter = 0;
@@ -27,10 +26,10 @@ var btn = document.createElement("BUTTON");
           var links = domains[i].getElementsByTagName('A');
           for (var j = 0; j< links.length; j++) {
             alert(links[j].attributes['href'].value);
+            //console.log(links[j].attributes['href'].value);
+            //pass message to background.js
             counter = counter +1;
-            console.log(counter);
-            if(counter == 5){
-              // alert("shut up");
+            if(counter == numOfLinks){
               exit = 1;
               break;
             }
@@ -39,6 +38,7 @@ var btn = document.createElement("BUTTON");
             break;
             }
           }
+
               }
 
 document.getElementById('clickme').addEventListener('click', workFlow);

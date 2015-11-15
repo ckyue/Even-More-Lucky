@@ -11,7 +11,11 @@
   },
   "default_locale": "en",
   "options_page": "src/options_custom/index.html",
-
+  "background": {
+    "scripts": [
+      "src/bg/background.js"
+    ]
+},
   "permissions": [
     "tabs",
     "activeTab",
