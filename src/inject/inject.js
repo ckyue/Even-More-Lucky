@@ -1,5 +1,5 @@
 var btn = document.createElement("BUTTON");
-var t = document.createTextNode("Click Me");
+var t = document.createTextNode("Even More Lucky");
 btn.setAttribute('id',"clickme");
 btn.setAttribute('align',"center");
 var place = document.getElementById("searchform");
