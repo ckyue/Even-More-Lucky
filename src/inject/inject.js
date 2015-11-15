@@ -5,6 +5,10 @@ var btn = document.createElement("BUTTON");
 		var place = document.getElementById("searchform");
     btn.appendChild(t);
     place.appendChild(btn);
+    // var searchControl = new google.search.SearchControl();
+    // var searchControl = new GSearchControl();
+    // var indicator = 10;
+    // searchControl.setResultSetSize(indicator);
 
     function workFlow(){
         var numOfLinks = 5;

@@ -12,6 +12,5 @@ Option menu;
 ship;
 
 issues:
+setResultSetSize;
 css, the position of the button;
-fetch url of result page;
-refresh ? idk;
