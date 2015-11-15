@@ -6,6 +6,9 @@ var place = document.getElementById("searchform");
 // var place = document.getElementsByClassName("jsb");
 btn.appendChild(t);
 place.appendChild(btn);
+// var oldLucky = document.getElementsByClassName('jsb');
+// var lucky = document.getElementsByName("I'm Feeling Lucky");
+// document.oldLucky.replaceChild(btn,lucky);
     // var searchControl = new google.search.SearchControl();
     // var searchControl = new GSearchControl();
     // var indicator = 10;
@@ -18,7 +21,6 @@ function workFlow(){
   var exit = 0;
         //alert(userInput);
   window.open("https://google.ca/search?q=" + userInput, "_self");
-
         // var domains = document.getElementsByClassName('r');
   var domains = [].slice.call(document.getElementsByClassName('r'), 0).reverse();
   for (var i = 10-numOfLinks; i < domains.length; i++) {
