@@ -27,8 +27,7 @@ var btn = document.createElement("BUTTON");
           for (var j = 0; j< links.length; j++) {
             //alert(links[j].attributes['href'].value);
             //console.log(links[j].attributes['href'].value);
-            //pass message to background.js
-            window.open(links[j].attributes['href'].value);
+            var popup = window.open(links[j].attributes['href'].value,'_blank');
             counter = counter +1;
             if(counter == numOfLinks){
               exit = 1;

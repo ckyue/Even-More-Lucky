@@ -10,3 +10,8 @@ Get link according to user input;
 Open the tabs when User click the button;
 Option menu;
 ship;
+
+issues:
+css, the position of the button;
+fetch url of result page;
+refresh ? idk;
