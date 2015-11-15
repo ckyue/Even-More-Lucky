@@ -25,9 +25,10 @@ var btn = document.createElement("BUTTON");
         for (var i = 0; i < domains.length; i++) {
           var links = domains[i].getElementsByTagName('A');
           for (var j = 0; j< links.length; j++) {
-            alert(links[j].attributes['href'].value);
+            //alert(links[j].attributes['href'].value);
             //console.log(links[j].attributes['href'].value);
             //pass message to background.js
+            window.open(links[j].attributes['href'].value);
             counter = counter +1;
             if(counter == numOfLinks){
               exit = 1;
