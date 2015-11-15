@@ -21,10 +21,14 @@ var btn = document.createElement("BUTTON");
         //               }
         //             }, 10);
 
-        var domains = document.getElementsByClassName('r');
-        for (var i = 0; i < domains.length; i++) {
-          var links = domains[i].getElementsByTagName('A');
+        // var domains = document.getElementsByClassName('r');
+        var domains = [].slice.call(document.getElementsByClassName('r'), 0).reverse();
+        for (var i = 10-numOfLinks; i < domains.length; i++) {
+          // alert(domains.length);
+          var links = domains[i].getElementsByTagName('A')
+          // var links = [].slice.call(domains[i].getElementsByTagName('A'), 0).reverse();
           for (var j = 0; j< links.length; j++) {
+          // alert(domains.length);;
             //alert(links[j].attributes['href'].value);
             //console.log(links[j].attributes['href'].value);
             var popup = window.open(links[j].attributes['href'].value,'_blank');
