@@ -3,11 +3,11 @@
  **/
 
  button{
-   position: absolute;
+   position: relative;
    width: 120px;
-   height: 35.3px;
-   left:80%;
-   margin: -47px 0 0 -277px;
+   height: 35.4px;
+   left:60%;
+   bottom: 47px;
    border: none;
    background: #687dd9;
    color: #fff;
@@ -19,7 +19,6 @@
    font-family: Helvetica;
    text-align: center;
    border-radius:2px;
-   display: inline-block;
    text-decoration: none
  }
  /*
