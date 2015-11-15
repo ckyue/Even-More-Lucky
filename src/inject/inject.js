@@ -5,10 +5,13 @@ var btn = document.createElement("BUTTON");
 		var place = document.getElementById("searchform");
     btn.appendChild(t);
     place.appendChild(btn);
- var numOfLinks = 5;
-var counter = 0;
+
+
     function workFlow(){
+        var numOfLinks = 5;
+        var counter = 0;
         var userInput = document.getElementById("lst-ib").value;
+        var exit = 0;
         //alert(userInput);
         window.open("https://google.ca/search?q=" + userInput, "_self");
         // var readyStateCheckInterval = setInterval(function() {
@@ -23,15 +26,19 @@ var counter = 0;
         for (var i = 0; i < domains.length; i++) {
           var links = domains[i].getElementsByTagName('A');
           for (var j = 0; j< links.length; j++) {
-            console.log(links.length);
             alert(links[j].attributes['href'].value);
             counter = counter +1;
-            if(counter == numOfLinks){
+            console.log(counter);
+            if(counter == 5){
+              // alert("shut up");
+              exit = 1;
               break;
-              alert("shut up");
             }
           }
-        }
-                  }
+          if(exit == 1){
+            break;
+            }
+          }
+              }
 
 document.getElementById('clickme').addEventListener('click', workFlow);
