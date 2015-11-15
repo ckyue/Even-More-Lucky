@@ -20,7 +20,9 @@ var btn = document.createElement("BUTTON");
         //
         //               }
         //             }, 10);
-
+        if(window.onload){
+          alert("finished loading");
+        }
         // var domains = document.getElementsByClassName('r');
         var domains = [].slice.call(document.getElementsByClassName('r'), 0).reverse();
         for (var i = 10-numOfLinks; i < domains.length; i++) {
