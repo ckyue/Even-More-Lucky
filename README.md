@@ -7,14 +7,16 @@ Enhancing your Google Search Experience with a this Google Chrome Extension.
 
 TO-DO LIST:
 <ul>
-<li>Create an Extension;</li>
-<li>>Create a Button;</li>
-<li>Load User Input;</li>
-<li>Get link according to user input;</li>
+<li><strike>Create an Extension;</strike></li>
+<li><strike>Create a Button;</strike></li>
+<li><strike>Load User Input;</strike></li>
+<li><strike>Get link according to user input;</strike></li>
 <li>Option menu;</li>
-<li>ship;</li>
-<p></p>
+<li>Icons;</li>
+<ul>
 <li>issues:</li>
 <li>setResultSetSize;</li>
 <li>hard to click image video etc;</li>
+</ul>
+<li>pack and launch;</li>
 </ul>
