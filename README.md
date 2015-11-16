@@ -1,5 +1,5 @@
 # Even More Lucky
-Built at EngHack Fall 2015, University of Waterloo
+I built it during EngHack Fall 2015 at the University of Waterloo
 Enhancing your Google Search Experience with a this Google Chrome Extension.
 
 <img src = "http://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/323/331/datas/gallery.jpg"/>
