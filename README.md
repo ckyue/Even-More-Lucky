@@ -15,6 +15,7 @@ TO-DO LIST:
 <li>Icons;</li>
 <ul>
 <li>issues:</li>
+<li>In appropriate position in HTML script</li>
 <li>setResultSetSize;</li>
 <li>hard to click image video etc;</li>
 </ul>
