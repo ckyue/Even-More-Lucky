@@ -10,10 +10,10 @@ TO-DO LIST:
 <li>Create an Extension;</li>
 <li>>Create a Button;</li>
 <li>Load User Input;</li>
-<li>Get link according to user input;<li>
+<li>Get link according to user input;</li>
 <li>Option menu;</li>
 <li>ship;</li>
-
+<p></p>
 <li>issues:</li>
 <li>setResultSetSize;</li>
 <li>hard to click image video etc;</li>
