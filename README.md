@@ -11,10 +11,9 @@ TO-DO LIST:
 <li>>Create a Button;</li>
 <li>Load User Input;</li>
 <li>Get link according to user input;<li>
-<br></br>
 <li>Option menu;</li>
 <li>ship;</li>
-<br></br>
+
 <li>issues:</li>
 <li>setResultSetSize;</li>
 <li>hard to click image video etc;</li>
