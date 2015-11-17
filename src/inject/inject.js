@@ -15,7 +15,7 @@ place.appendChild(btn);
     // searchControl.setResultSetSize(indicator);
 
 function workFlow(){
-  var numOfLinks = 5;
+  var numOfLinks = 3;
   var counter = 0;
   var userInput = document.getElementById("lst-ib").value;
   var exit = 0;
