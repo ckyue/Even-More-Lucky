@@ -5,7 +5,7 @@ Enhancing your Google Search Experience with a this Google Chrome Extension.
 <img src = "http://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/323/331/datas/gallery.jpg"/>
 <img src = "http://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/323/566/datas/gallery.jpg"/>
 
-TO-DO LIST:
+TO-DO LIST (after Finals):
 <ul>
 <li><strike>Create an Extension;</strike></li>
 <li><strike>Create a Button;</strike></li>
