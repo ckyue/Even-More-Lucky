@@ -11,13 +11,12 @@ TO-DO LIST:
 <li><strike>Create a Button;</strike></li>
 <li><strike>Load User Input;</strike></li>
 <li><strike>Get link according to user input;</strike></li>
-<li>Option menu;</li>
+<li>Option menu(by creating a page action)</li>
 <li>Icons;</li>
 <ul>
 <li>issues:</li>
-<li>In appropriate position in HTML script</li>
-<li>setResultSetSize;</li>
-<li>hard to click image video etc;</li>
+<li>In appropriate position in HTML script, looking for a proper division on index</li>
+<li>setResultSetSize; lets see</li>
 </ul>
 <li>pack and launch;</li>
 </ul>
