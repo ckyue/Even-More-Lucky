@@ -5,7 +5,7 @@ Enhancing your Google Search Experience with a this Google Chrome Extension.
 <img src = "http://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/323/331/datas/gallery.jpg"/>
 <img src = "http://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/323/566/datas/gallery.jpg"/>
 
-TO-DO LIST (after Finals):
+TO-DO:
 <ul>
 <li><strike>Create an Extension;</strike></li>
 <li><strike>Create a Button;</strike></li>
@@ -15,7 +15,7 @@ TO-DO LIST (after Finals):
 <li>Icons;</li>
 <ul>
 <li>issues:</li>
-<li>In appropriate position in HTML script, looking for a proper division on index</li>
+<li><strike>Inappropriate position in HTML script, looking for a proper division on index</strike></li>
 <li>setResultSetSize; lets see</li>
 </ul>
 <li>pack and launch;</li>
