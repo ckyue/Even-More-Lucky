@@ -18,7 +18,7 @@
     {
       "matches": ["*://www.google.ca/*","*://www.google.com/*","*://www.google.hk/*"],
       "css": ["src/inject/inject.css"],
-      "js": ["src/inject/inject.js"]
+      "js": ["src/inject/inject.js", "src/inject/jquery-2.1.1.min.js"]
     }
  ]
 }
