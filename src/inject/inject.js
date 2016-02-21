@@ -27,6 +27,7 @@ var resultbox = document.evaluate( '//*[@id="sfopt"]' ,document, null, XPathResu
 // mainbox.appendChild(btn);		//append button
 // mainbox.appendChild(eleMain);	//swap position
 $( '#logo' ).on( 'visibility', function() {
+	// console.log("result")
 	resultbox.appendChild(btn);
 }).trigger( 'visibility' );
 
