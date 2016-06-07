@@ -16,7 +16,6 @@ TO-DO:
 <ul>
 <li>issues:</li>
 <li><strike>Inappropriate position in HTML script, looking for a proper division on index</strike></li>
-<li>setResultSetSize; lets see</li>
 </ul>
 <li>pack and launch;</li>
 </ul>
